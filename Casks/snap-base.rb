@@ -8,17 +8,17 @@ cask 'snap-base' do
   stage_only true
 
   # Unixy things
-  depends_on formula: 'binutils', link: true
+  depends_on formula: 'binutils'#, link: true
   depends_on formula: 'coreutils'
   depends_on formula: 'diffutils'
-  depends_on formula: 'ed', args: ['with-default-names']
-  depends_on formula: 'findutils', args: ['with-default-names']
-  depends_on formula: 'gnu-indent', args: ['with-default-names']
-  depends_on formula: 'gnu-sed', args: ['with-default-names']
-  depends_on formula: 'gnu-tar', args: ['with-default-names']
+  depends_on formula: 'ed'#, args: 'with-default-names']
+  depends_on formula: 'findutils'#, args: ['with-default-names']
+  depends_on formula: 'gnu-indent'#, args: ['with-default-names']
+  depends_on formula: 'gnu-sed'#, args: ['with-default-names']
+  depends_on formula: 'gnu-tar'#, args: ['with-default-names']
   depends_on formula: 'gnu-units'
-  depends_on formula: 'gnu-which', args: ['with-default-names']
-  depends_on formula: 'grep', args: ['with-default-names']
+  depends_on formula: 'gnu-which'#, args: ['with-default-names']
+  depends_on formula: 'grep'#, args: ['with-default-names']
   depends_on formula: 'gzip'
   depends_on formula: 'jq'
   depends_on formula: 'pv'
